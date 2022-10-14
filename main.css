@@ -1,0 +1,120 @@
+#main {
+    margin: 0;
+}
+
+#mainSection {
+    background-color: lightgrey;
+    height: 65vh;
+    margin: 50px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#subTitle {
+    font-family: papyrus;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#guesses {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess1 {   
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.guess2 {   
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guess3 {   
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guess4 {   
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guess5 {   
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actualValue {
+    position: relative;
+    display: inherit;
+    border-radius: inherit;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 0 .325em;
+    z-index: 1; 
+    height: 20px;
+    width: 50px;
+}
